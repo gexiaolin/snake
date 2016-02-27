@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#scene{
+	width: 601px;
+	height: 601px;
+	border: 2px solid #333;
+	margin: 0 auto;
+}
+.point{
+	width: 29px;
+	height: 29px;
+	float: left;
+	margin: 1px 0 0 1px;
+	background: #fff;
+}
+.lose{
+	font-family: '微软雅黑';
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -50px;
+	padding: 5px 10px;
+	background: #333;
+	color: #fff;
+	border-radius: 3px;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+.win{
+	font-family: '微软雅黑';
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -50px;
+	padding: 5px 10px;
+	background: #333;
+	color: #fff;
+	border-radius: 3px;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
